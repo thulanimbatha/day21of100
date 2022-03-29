@@ -1,1 +1,1 @@
-# Hello again! Let's go!
+# Day 23 - Turtle crossing game
