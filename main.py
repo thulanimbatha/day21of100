@@ -8,6 +8,9 @@ screen.tracer(0)
 
 player = Player()
 
+screen.listen()
+screen.onkey(player.go_up, "Up")    # when UP key is detected, use the player.go_up() method
+
 game_is_on = True
 while game_is_on:
     time.sleep(0.1)

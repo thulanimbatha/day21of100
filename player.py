@@ -12,3 +12,6 @@ class Player(Turtle):
         self.penup()    # penup
         self.goto(STARING_POSITION) # go to the starting position
         self.setheading(90) # face north
+
+    def go_up(self):
+        self.forward(MOVE_DISTANCE)
