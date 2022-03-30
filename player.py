@@ -13,5 +13,6 @@ class Player(Turtle):
         self.goto(STARING_POSITION) # go to the starting position
         self.setheading(90) # face north
 
+    # move the player forward
     def go_up(self):
         self.forward(MOVE_DISTANCE)
